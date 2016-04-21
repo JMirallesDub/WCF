@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService", "TestService\TestService.csproj", "{5C5A0E86-3017-4896-8D9E-C7B3C55875CF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PollenHost", "..\..\..\WebSites\PollenHost\", "{BA00C0A1-9AB8-4172-9A76-DC071A7F5FC9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{5c5a0e86-3017-4896-8d9e-c7b3c55875cf}|TestService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14987"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\PollenHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14987\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14987"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\PollenHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14987\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "14987"
+		SlnRelativePath = "..\..\..\WebSites\PollenHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyClient(2)", "..\..\..\WebSites\MyClient\", "{1900465E-C89E-4D09-AF5F-4B47BE71DCC1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1845"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\MyClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1845\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1845"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\MyClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1845\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1850"
+		SlnRelativePath = "..\..\..\WebSites\MyClient\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{3F93246C-906D-43E6-BCBF-9CC583281E76} = {3F93246C-906D-43E6-BCBF-9CC583281E76}
+		{BA00C0A1-9AB8-4172-9A76-DC071A7F5FC9} = {BA00C0A1-9AB8-4172-9A76-DC071A7F5FC9}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pollen", "http://localhost/Pollen", "{3F93246C-906D-43E6-BCBF-9CC583281E76}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{5c5a0e86-3017-4896-8d9e-c7b3c55875cf}|TestService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Pollen"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\..\inetpub\wwwroot\Pollen\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Pollen\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Pollen"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\..\inetpub\wwwroot\Pollen\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Pollen\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\..\inetpub\wwwroot\Pollen\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C5A0E86-3017-4896-8D9E-C7B3C55875CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5A0E86-3017-4896-8D9E-C7B3C55875CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5A0E86-3017-4896-8D9E-C7B3C55875CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5A0E86-3017-4896-8D9E-C7B3C55875CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA00C0A1-9AB8-4172-9A76-DC071A7F5FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA00C0A1-9AB8-4172-9A76-DC071A7F5FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA00C0A1-9AB8-4172-9A76-DC071A7F5FC9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA00C0A1-9AB8-4172-9A76-DC071A7F5FC9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1900465E-C89E-4D09-AF5F-4B47BE71DCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1900465E-C89E-4D09-AF5F-4B47BE71DCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1900465E-C89E-4D09-AF5F-4B47BE71DCC1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1900465E-C89E-4D09-AF5F-4B47BE71DCC1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3F93246C-906D-43E6-BCBF-9CC583281E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F93246C-906D-43E6-BCBF-9CC583281E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F93246C-906D-43E6-BCBF-9CC583281E76}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F93246C-906D-43E6-BCBF-9CC583281E76}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

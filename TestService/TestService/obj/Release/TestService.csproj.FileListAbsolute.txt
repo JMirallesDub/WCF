@@ -1,0 +1,5 @@
+C:\Users\JEugenio\Documents\Visual Studio 2015\Projects\WCF\TestService\TestService\bin\Release\TestService.dll.config
+C:\Users\JEugenio\Documents\Visual Studio 2015\Projects\WCF\TestService\TestService\bin\Release\TestService.dll
+C:\Users\JEugenio\Documents\Visual Studio 2015\Projects\WCF\TestService\TestService\bin\Release\TestService.pdb
+C:\Users\JEugenio\Documents\Visual Studio 2015\Projects\WCF\TestService\TestService\obj\Release\TestService.dll
+C:\Users\JEugenio\Documents\Visual Studio 2015\Projects\WCF\TestService\TestService\obj\Release\TestService.pdb
